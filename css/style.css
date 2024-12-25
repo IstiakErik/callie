@@ -285,6 +285,12 @@ textarea.input {
 /*=========================================================
 	NAVIGATION
 ===========================================================*/
+#header {
+  position: relative; /* Or static, just avoid overflow issues */
+  height: auto; /* Ensure it extends with content */
+  overflow: visible; /* Do not clip the sticky element */
+}
+
 
 #nav {
   border-bottom: 1px solid #e8eaed;
