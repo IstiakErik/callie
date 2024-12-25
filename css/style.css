@@ -347,12 +347,14 @@ textarea.input {
 
 .nav-social li {
   display: inline-block;
+	color: white;
 }
 
 .nav-social li a {
   display: block;
   padding: 15px;
   line-height: 20px;
+	color: white;
 }
 
 /*----------------------------*\
