@@ -288,6 +288,9 @@ textarea.input {
 
 #nav {
   border-bottom: 1px solid #e8eaed;
+	position: sticky;
+  z-index: 1000;
+  top: 0;
 }
 
 #nav:after {
@@ -313,9 +316,7 @@ textarea.input {
 #nav-top {
   text-align: center;
   background-color: #000000;
-  position: sticky;
-  z-index: 1000;
-  top: 0;
+  
 	
 }
 
@@ -685,7 +686,7 @@ textarea.input {
   margin: 0;
   padding-top: 120px;
   padding-bottom: 80px;
-  background-color: black;
+  background-color: red;
 }
 
 #post-header {
