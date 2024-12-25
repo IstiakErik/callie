@@ -372,6 +372,8 @@ textarea.input {
 .nav-btns {
   float: right;
   padding: 10px 0px;
+	color: #fff;
+
 }
 
 .nav-btns>button {
